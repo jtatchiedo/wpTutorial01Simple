@@ -5,3 +5,9 @@
  * Description: Very Simple Theme
  * Version: 1.0
  */
+
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <title><?php bloginfo();  ?></title>
+</html>
