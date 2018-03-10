@@ -31,6 +31,8 @@ header h1 {
 
 main {
     margin: 15px 0;
+    float: left;
+    width: 68%;
 }
 
 a {
@@ -58,10 +60,23 @@ article.post a.button {
     margin-bottom: 10px;
 }
 
+.clr {
+    clear: both;
+}
+
 .meta {
     background: #333;
     color: #fff;
     padding: 10px 5px;
+}
+
+.meta a {
+    color: #fff;
+}
+
+.sidebar {
+    float: right;
+    width: 28%;
 }
 
 .container {
@@ -75,24 +90,41 @@ article.post a.button {
     height: auto;
 }
 
-.mainNav {
+.main-nav {
     background: #000;
     color: #fff;
     padding: 5px;
 }
 
-.mainNav ul {
+.main-nav ul {
     margin: 0;
     padding: 0;
 }
 
-.mainNav li {
+.main-nav li {
     list-style: none;
     float: left;
     padding-right: 15px;
 }
 
-.mainNav a {
+.main-nav a {
     color: #fff;
+    text-decoration: none;
+}
+
+.side-widget {
+    border: 1px #ccc solid;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.side-widget li {
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom: dotted 1px #ccc;
+}
+
+.side-widget a {
     text-decoration: none;
 }

@@ -14,7 +14,7 @@
         </div>
     </header>
 
-    <nav class="mainNav">
+    <nav class="main-nav">
         <div class="container">
         <?php
             $args = array(
