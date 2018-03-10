@@ -1,1 +1,1 @@
-# Wordpress Tutorial: Simple Theme
+# Wordpress Tutorial 01: Simple Theme
