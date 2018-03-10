@@ -74,3 +74,25 @@ article.post a.button {
     width: 100%;
     height: auto;
 }
+
+.mainNav {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+.mainNav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mainNav li {
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+}
+
+.mainNav a {
+    color: #fff;
+    text-decoration: none;
+}
